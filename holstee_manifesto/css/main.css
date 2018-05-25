@@ -1,0 +1,148 @@
+/****** HEADER ******/
+
+header {
+  font-family: 'Alice', serif;
+  font-size: 55px;
+	text-align: center;
+	font-style: italic;
+	color: red;
+	height: 280px;
+	background: url('../img/hero-image.png');
+	width: 1300px;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+header h3 {
+  font-size: 25px;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	color: black;
+
+}
+
+/****** BODY ******/
+
+body {
+  background: url('../img/super_moon.jpg');
+  font-family: 'Chewy', cursive;
+
+}
+
+#main {
+	    padding: 280px;
+	    height: auto;
+	    border: 10px solid #navy;
+	    text-align: center;
+
+
+}
+
+.lifelove {
+
+	background: orange;
+	font-size: 30px;
+	margin: 20px;
+	font-family: 'Gugi', cursive;
+
+}
+
+.tv {
+
+ font-family: 'Anton', sans-serif;
+  width: auto;
+	height: 150px;
+	background: yellow;
+	font-size: 60px;
+	text-align: center;
+
+}
+
+.mate {
+
+	    font-family: 'Satisfy', cursive;
+	    background: red;
+	    text-align: center;
+	    float: left;
+	    margin: 30px;
+      font-size: 25px;
+
+}
+.simple {
+
+	      font-family: 'Jua', sans-serif;
+	      background: seagreen;
+	      float: left;
+	      text-align: center;
+        font-size: 30px;
+				padding: 0 220px;
+
+
+}
+
+.emotions {
+	       background: silver;
+	       font-family: 'Monoton';
+	       font-style: bold;
+	       text-align: center;
+	       margin: 280px;
+	       float: left;
+         width: 500px;
+				 font-size: 50px;
+
+
+}
+
+.differences {
+	          background: white;
+	          color: blue;
+	          font-family: 'Cinzel', serif;
+	          text-align: center;
+	          clear: both;
+						font-size: 30px;
+}
+
+.travel	{
+ 	 background: navy;
+   font-family: 'Anton', sans-serif;
+	 color: yellow;
+	 font-size: 60px;
+   margin: 200px;
+	 text-align: center;
+ 	 float: left;
+}
+
+.opportunity {
+	          color: red;
+	          font-family: 'Jua', sans-serif;
+            font-size: 46px;
+	          text-align: center;
+	          margin: 200px;
+	          float: left;
+	          background: black;
+
+}
+
+.people {
+	     background: purple;
+	     color: orange;
+	     margin: 100px;
+	     text-align: center;
+       font-size: 30px;
+		   clear: both;
+}
+
+/****** FOOTER ******/
+
+#footer {
+
+	 font-family: 'Alice', serif;
+	 color: red;
+	 text-align: center;
+	 clear: both;
+
+   }

@@ -1,0 +1,206 @@
+/****** BASE STYLES ******/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+  #portfolio, #about, #contact {
+    height: 600px;
+
+}
+
+/****** GRID ******/
+
+.full-width {
+    margin: 0 auto;
+    width: 1300px;
+
+}
+.half-width {
+    float: left;
+    width: 650px;
+
+}
+
+.third-width {
+    float: left;
+    width: 433px;
+
+}
+
+/****** HEADER ******/
+
+header {
+    height: 600px;
+    background: url('../images-icons/hero-background.png');
+    background-size: cover;
+
+}
+
+header h1 {
+  font-family: 'Lora', serif;
+  font-size: 90px;
+  color: #76ac7a;
+  padding: 50px 0;
+
+}
+
+header h2 {
+  font-family: 'Lora', serif;
+  font-size: 50px;
+  color: #ffffff;
+  padding: 50px 0;
+
+}
+
+nav {
+    float: left;
+    padding: 85px 130px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #76ac7a;
+
+
+}
+/****** WORK ******/
+
+ #work {
+   background-color: #1f202b;
+   background-size: cover;
+   color: #feffff;
+   padding: 25px;
+   text-align: center;
+}
+
+#work h1 {
+  font-size: 45px;
+  color: #76ac7a;
+
+}
+
+#work h2 {
+   color: #cc0665;
+}
+
+.thumbnail {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.thumbnail img {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   height: 100%
+   width: auto;
+   -webkit-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+
+
+}
+
+.thumbnail img.menu {
+    width: 100%
+    height: auto;
+
+}
+
+/****** ABOUT ******/
+
+#about {
+   height: 600px;
+   padding: 30px 30px;
+   background: url('../images-icons/about-me.png');
+}
+
+#about p {
+   color: #cc0665;
+
+}
+
+#about h1 {
+   color: #2d5101;
+   text-align: center;
+
+}
+
+/****** CONTACT ******/
+
+ #contact  {
+  color: #ffffff;
+  text-align: center;
+  background-color: #1f202b;
+  padding: 30px;
+
+ }
+
+#contact-info {
+   padding: 0 30px;
+   display: inline-block;
+
+}
+#contact h1 {
+   color: #76ac7a;
+   text-align: center;
+   font-size: 45px;
+
+}
+
+#contact ul li {
+     display: inline-block;
+     padding: 30px;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding: 48px; 30px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+#contact h3 {
+  padding: 20px;
+  font-size: 28px;
+
+}
+
+#contact-info {
+   font-size: 30px;
+
+}
+
+
+/****** FOOTER ******/
+
+#footer {
+   color: #76ac7a;
+   padding:30px 30px;
+   background-color: #1f202b;
+   height: 220px;
+
+   }
+
+ footer p {
+  padding: 40px;
+  text-align: center;
+
+}
